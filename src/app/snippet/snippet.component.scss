@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  position: relative;
+  p {
+    margin: 0px;
+  }
+  .lang-asm {
+    font-family: 'VT323', monospace;
+  }
+
+  .retro-1980 {
+    background: black;
+    box-shadow: 1px 1px 10px 10px black;
+    color: greenyellow;
+  }
+
+  .lang-c {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: small;
+  }
+
+  .retro-1990 {
+    background: black;
+    box-shadow: 1px 1px 10px 10px black;
+    color: yellow;
+  }
+
+  .lang-atlas {
+    font-family: 'VT323', monospace;
+  }
+
+  .retro-1991 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: yellow;
+    box-shadow: 1px 1px 10px 10px yellow;
+    color: black;
+  }
+
+  .lang-java {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: large;
+  }
+
+  .retro-2003 {
+    background: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    border: 2px solid darkgray;
+    box-shadow: 0px 0px 3px 3px darkgray;
+    border-radius: 5px;
+  }
+
+  .pre {
+    display: block;
+  }
+}

@@ -1,0 +1,28 @@
+:host {
+  font-size: 30px;
+  display: inline-block;
+  // width: 600px;
+  margin: 0px;
+
+  cover-snippet: {
+    opacity: 0.7;
+  }
+
+  cover-snippet:nth-child(1) {
+    left: 80px;
+    transform: rotate(5deg);
+  }
+
+  cover-snippet:nth-child(2) {
+    left: 100px;
+    transform: rotate(-2deg);
+  }
+  cover-snippet:nth-child(3) {
+    left: 80px;
+    transform: rotate(2deg);
+  }
+  cover-snippet:nth-child(4) {
+    left: 120px;
+    transform: rotate(-4deg);
+  }
+}
