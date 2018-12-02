@@ -41,8 +41,11 @@ startFun(struct Employees *employees) {
       lang: 'atlas',
       retro: '1991',
       lines: `
-LEARN "ATLAS" $
-SELL "PAWS"   $
+00200 APPLY, ATLAS-KNOW-HOW, CNX PARTNER=TYX $
+00225 PERFORM, 'SELL-PAWS' $
+00250 VERIFY, (TESTPROGRAM WORKSON MODERN-ATLAS) $
+00300 IF, NOGO, THEN $
+00350    PERFORM, 'SELL-TRANSFORMER' $ "
       `
     },
     {
@@ -58,7 +61,7 @@ catch(EvictedError e) {
       lang: 'idl',
       retro: '2015',
       lines: `
-module CompanyLeadership {
+%bmodule% CompanyLeadership {
   %benum% prev {bunsen, fritzler, zeh};
   %benum% next (daxwanger, krenzke);
   %binterface% IMbo {
