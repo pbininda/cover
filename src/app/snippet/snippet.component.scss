@@ -15,14 +15,35 @@
   }
 
   .lang-c {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: small;
+    font-family: 'Dot Matrix', monospace;
+    font-size: 14pt;
   }
 
   .retro-1990 {
-    background: black;
-    box-shadow: 1px 1px 10px 10px black;
-    color: yellow;
+    background: #ffe2d8;
+    color: black;
+    cover-line ::ng-deep .starter {
+      display: inline-block;
+      content: '';
+      background: white;
+      border-radius: 3px;
+      width: 6px;
+      height: 6px;
+      margin-bottom: 5px;
+      margin-left: -20px;
+      margin-right: 20px;
+    }
+    cover-line ::ng-deep .text {
+      display: inline-block;
+      position: relative;
+      border-left: 1px dashed white;
+      margin-left: -12px;
+      padding-left: 20px;
+      top: 6px;
+    }
+    cover-line:nth-child(even) {
+      background: #b4d6ba;
+    }
   }
 
   .lang-atlas {
@@ -32,9 +53,9 @@
   .retro-1991 {
     padding-top: 10px;
     padding-bottom: 10px;
-    background: yellow;
-    box-shadow: 1px 1px 10px 10px yellow;
-    color: black;
+    color: yellow;
+    box-shadow: 1px 1px 10px 10px black;
+    background: black;
   }
 
   .lang-java {
@@ -50,6 +71,16 @@
     border: 2px solid darkgray;
     box-shadow: 0px 0px 3px 3px darkgray;
     border-radius: 5px;
+  }
+
+  .lang-idl {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9pt;
+  }
+
+  .retro-2015 {
+      background: white;
+      border: 1px solid black;
   }
 
   .pre {

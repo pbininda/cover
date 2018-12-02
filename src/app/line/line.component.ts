@@ -16,4 +16,7 @@ export class LineComponent implements OnInit {
   ngOnInit() {
   }
 
+  parsed(line: string) {
+    return line.replace(/%([a-z])([^%]*)%/g, '<span class="hl-$1">$2</span>');
+  }
 }

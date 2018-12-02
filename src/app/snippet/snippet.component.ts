@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, HostBinding } from '@angular/core';
-import { listeners } from 'cluster';
 
 @Component({
   selector: 'cover-snippet',

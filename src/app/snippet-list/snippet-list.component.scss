@@ -9,20 +9,31 @@
   }
 
   cover-snippet:nth-child(1) {
-    left: 80px;
+    left: 180px;
     transform: rotate(5deg);
+    z-index: 10;
+    opacity: 0.93;
   }
 
   cover-snippet:nth-child(2) {
     left: 100px;
     transform: rotate(-2deg);
+    position: relative;
+    top: -10px;
   }
   cover-snippet:nth-child(3) {
     left: 80px;
-    transform: rotate(2deg);
+    transform: rotate(-5deg);
+    position: relative;
+    top: -25px;
+    opacity: 0.93;
   }
   cover-snippet:nth-child(4) {
     left: 120px;
-    transform: rotate(-4deg);
+    transform: rotate(1deg);
+  }
+  cover-snippet:nth-child(5) {
+    left: 90px;
+    transform: rotate(-1deg);
   }
 }

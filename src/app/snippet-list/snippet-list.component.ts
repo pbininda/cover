@@ -34,6 +34,7 @@ startFun(struct Employees *employees) {
     add(newEmployee, employees);
     train(newEmployee);
   }
+}
 `
     },
     {
@@ -48,11 +49,24 @@ SELL "PAWS"   $
       lang: 'java',
       retro: '2003',
       lines: `
-catch(EmployeeOverflowException) {
-      Munich.PerchtingerStr.moveTo(this);
+catch(EvictedError e) {
+      Munich.BaierbrunnerStr.moveTo(this);
 }
       `
-    }
+    },
+    {
+      lang: 'idl',
+      retro: '2015',
+      lines: `
+module CompanyLeadership {
+  %benum% prev {bunsen, fritzler, zeh};
+  %benum% next (daxwanger, krenzke);
+  %binterface% IMbo {
+    %bvoid% transfer(%bout% prev owners1, %bin% next owners2);
+  }
+}
+      `
+    },
   ];
 
   constructor() { }
