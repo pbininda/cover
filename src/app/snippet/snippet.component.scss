@@ -81,8 +81,30 @@
   }
 
   .retro-2015 {
-      background: white;
-      border: 1px solid black;
+    background: white;
+    border: 1px solid black;
+  }
+
+  .lang-html {
+    font-family: Consolas;
+    font-size: 10pt;
+  }
+
+  .retro-2017 {
+    background: black;
+    box-shadow: 1px 1px 10px 10px black;
+    color: lightgray;
+  }
+
+  .lang-rest {
+    font-family: Consolas;
+    font-size: 10pt;
+  }
+
+  .retro-2018 {
+    background: white;
+    border: 1px solid black;
+    color: black;
   }
 
   .pre {

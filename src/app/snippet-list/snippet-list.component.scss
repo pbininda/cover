@@ -1,43 +1,42 @@
+$r: 3deg;
+$rx: 10deg;
+$x: 20px;
+$y: -1.5px;
+$z: 20px;
+
 :host {
   font-size: 30px;
   display: inline-block;
-  // width: 600px;
   margin: 0px;
+  margin-top: 100px;
   perspective: 500px;
+  transform: translateX(200px);
 
   cover-snippet: {
     opacity: 0.7;
   }
 
   cover-snippet:nth-child(1) {
-    left: 180px;
-    // transform: rotate(5deg);
-    transform: translateZ(10px) rotateY(30deg);
-    z-index: 10;
+    transform: translateZ(0*$z) translateY(20*$y) rotateX(0*$rx) rotateY(0*$r) translateX(0*$x);
     opacity: 0.93;
   }
-
   cover-snippet:nth-child(2) {
-    left: 100px;
-    // transform: rotate(-2deg);
-    transform: rotateY(30deg);
-    position: relative;
-    top: -10px;
+    transform: translateZ(1*$z) translateY(5*$y) rotateX(1*$rx) rotateY(1*$r) translateX(1*$x);
   }
   cover-snippet:nth-child(3) {
-    left: 80px;
-    // transform: rotate(-5deg);
-    transform: rotateY(30deg);
-    position: relative;
-    top: -25px;
+    transform: translateZ(2*$z) translateY(2*$y)  rotateX(2*$rx) rotateY(2*$r) translateX(2*$x);
     opacity: 0.93;
   }
   cover-snippet:nth-child(4) {
-    left: 120px;
-    transform: rotate(1deg);
+    transform: translateZ(3*$z) translateY(4*$y) rotateX(3*$rx) rotateY(3*$r) translateX(3*$x);
   }
   cover-snippet:nth-child(5) {
-    left: 90px;
-    transform: rotate(-1deg);
+    transform: translateZ(4*$z) translateY(8*$y) rotateX(4*$rx) rotateY(4*$r) translateX(4*$x);
+  }
+  cover-snippet:nth-child(6) {
+    transform: translateZ(5*$z) translateY(16*$y) rotateX(5*$rx) rotateY(5*$r) translateX(5*$x);
+  }
+  cover-snippet:nth-child(7) {
+    transform: translateZ(8*$z) translateY(32*$y) rotateX(6*$rx) rotateY(6*$r) translateX(6*$x);
   }
 }

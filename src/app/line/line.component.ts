@@ -17,6 +17,6 @@ export class LineComponent implements OnInit {
   }
 
   parsed(line: string) {
-    return line.replace(/%([a-z])([^%]*)%/g, '<span class="hl-$1">$2</span>');
+    return line.replace(/%([A-Za-z])([^%]*)%/g, '<span class="hl-$1">$2</span>');
   }
 }

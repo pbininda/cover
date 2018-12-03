@@ -70,7 +70,26 @@ catch(EvictedError e) {
 }
       `
     },
-  ];
+    {
+      lang: 'html',
+      retro: '2017',
+      lines: `
+&lt;%Bbutton% %O(%%Lclick%%O)%%W=%%O"focusOn($event, 'SPA')"%&gt;
+  &lt;%Bimg% %Lsrc%%W=%%O"assets/fancySpaMarketingImage.png"%&gt;
+&lt;/%Bbutton%&gt;
+      `
+    },
+    {
+      lang: 'rest',
+      retro: '2018',
+      lines: `
+%bGeneral%
+  %bRequest URL:% https://www.sekas.de/formula/for/success.html
+  %bRequest Method:% GET
+  %bSatus Code:% %I% 304 Not Modified
+      `
+    }
+  ].reverse();
 
   constructor() { }
 
