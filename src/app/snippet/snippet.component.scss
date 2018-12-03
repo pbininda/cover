@@ -12,6 +12,8 @@
   .retro-1980 {
     background: black;
     box-shadow: 1px 1px 10px 10px black;
+    margin-left: 5px;
+    margin-right: 5px;
     color: greenyellow;
   }
 
@@ -23,6 +25,7 @@
   .retro-1990 {
     background: #ffe2d8;
     color: black;
+    margin-top: -8px;
     cover-line ::ng-deep .starter {
       display: inline-block;
       content: '';
@@ -55,9 +58,11 @@
   .retro-1991 {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: lighten(#276681, 20%);
+    color: yellow;
     box-shadow: 1px 1px 10px 10px black;
     background: black;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .lang-java {
@@ -82,8 +87,11 @@
 
   .retro-2015 {
     background: white;
-    color: #276681;
-    border: 2px solid #276681;
+    color: desaturate(darken(rgb(213, 18, 36), 0%), 50%);
+    // border: 2px solid lighten(rgb(213, 18, 36), 50%);
+    margin-top: -10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px desaturate(darken(rgb(213, 18, 36), 0%), 50%);
   }
 
   .lang-html {
@@ -93,12 +101,13 @@
 
   .retro-2017 {
     background: black;
-    margin-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     margin-top: -5px;
-    width: 520px;
-    box-shadow: 1px 1px 10px 10px black;
+    // width: 520px;
+    box-shadow: 1px 1px 2px 2px black;
     color: lightgray;
   }
 

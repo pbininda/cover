@@ -66,7 +66,7 @@ catch(EvictedError e) {
       lines: `
 %bmodule% CompanyLeadership {
   %benum% prev {bunsen, fritzler, zeh};
-  %benum% next (daxwanger, krenzke);
+  %benum% next {daxwanger, krenzke};
   %binterface% IMbo {
     %bvoid% transfer(%bout% prev owners1, %bin% next owners2);
   }
@@ -92,7 +92,7 @@ catch(EvictedError e) {
   %bSatus Code:% %I% 304 Not Modified
       `
     }
-  ].reverse();
+  ];
 
   constructor() { }
 

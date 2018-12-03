@@ -10,10 +10,12 @@
     font-weight: bold;
   }
   ::ng-deep .hl-B {
-    color: rgb(79, 120, 182);
+    color: lighten(rgb(79, 120, 182), 10%);
+    font-weight: bold;
   }
   ::ng-deep .hl-O {
     color: orange;
+    font-weight: bold;
   }
   ::ng-deep .hl-L {
     color: rgb(182, 203, 235);
