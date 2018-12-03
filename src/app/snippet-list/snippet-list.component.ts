@@ -48,7 +48,7 @@ startFun(struct Employees *employees) {
 00250 VERIFY, (TESTPROGRAM WORKSON MODERN-ATLAS) $
 00300 IF, NOGO, THEN $
 00350    PERFORM, 'SELL-TRANSFORMER' $ "
-      `
+`
     },
     {
       lang: 'java',
@@ -70,7 +70,6 @@ catch(EvictedError e) {
   %binterface% IMbo {
     %bvoid% transfer(%bout% prev owners1, %bin% next owners2);
   }
-}
       `
     },
     {
