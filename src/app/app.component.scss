@@ -1,0 +1,54 @@
+
+.logo1 {
+  position: absolute;
+  left: 1050px;
+  top: 800px;
+  width: 100px;
+  height: auto;
+  transform: rotate(50deg);
+}
+
+.logo2 {
+  position: absolute;
+  left: 900px;
+  top: 600px;
+  width: 300px;
+  transform: rotate(50deg);
+}
+
+.logo3 {
+  position: absolute;
+  left: 790px;
+  top: 220px;
+  width: 400px;
+  transform: rotate(50deg);
+}
+
+.cover {
+  width: 1000px;
+  height: 1000px;
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+.logos {
+  position: absolute;
+  top: 0;
+  transform: translateX(-170px) translateY(10px);
+  z-index: -1;
+}
+
+.title {
+  position: absolute;
+  font-family: Titillium Web;
+  font-weight: bold;
+  font-size: 80pt;
+  left: 50px;
+  top: 830px;
+  // color: rgb(213, 18, 36)
+  color: #276681;
+}
+
+cover-snippet-list {
+  transform: translateX(40px) translateY(-20px);
+}

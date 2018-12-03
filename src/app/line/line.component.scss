@@ -18,4 +18,17 @@
   ::ng-deep .hl-L {
     color: rgb(182, 203, 235);
   }
+
+  ::ng-deep .hl-I:before {
+    content: '•';
+    display: inline-block;
+    position: static;
+    font-size: 30px;
+    margin-left: -5px;
+    margin-right: -5px;
+    transform: translateY(3.5px);
+    color: lighten(green, 10%);
+    line-height: 2px;
+    height: 2px;
+  }
 }

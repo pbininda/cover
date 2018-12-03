@@ -18,10 +18,11 @@ export class SnippetListComponent implements OnInit {
       lang: 'asm',
       retro: '1980',
       lines: `
-0000          jsr $POST
-$POST:        jsr $RENT_OFFICE
-              jsr $REGISTER_COMPANY
-              ret
+0000          JSR $POST
+              JMP $BOOTSTRAP
+$POST:        JSR $RENT_OFFICE
+              JSR $REGISTER_COMPANY
+              RET
       `
     },
     {
@@ -30,7 +31,8 @@ $POST:        jsr $RENT_OFFICE
       lines: `
 startFun(struct Employees *employees) {
   while (1) {
-    struct Employee *newEmployee = malloc(sizeof struct Employee);
+    struct Employee *newEmployee =
+      malloc(sizeof struct Employee);
     add(newEmployee, employees);
     train(newEmployee);
   }
@@ -52,6 +54,7 @@ startFun(struct Employees *employees) {
       lang: 'java',
       retro: '2003',
       lines: `
+}
 catch(EvictedError e) {
       Munich.BaierbrunnerStr.moveTo(this);
 }
@@ -75,7 +78,7 @@ catch(EvictedError e) {
       retro: '2017',
       lines: `
 &lt;%Bbutton% %O(%%Lclick%%O)%%W=%%O"focusOn($event, 'SPA')"%&gt;
-  &lt;%Bimg% %Lsrc%%W=%%O"assets/fancySpaMarketingImage.png"%&gt;
+  &lt;%Bimg% %Lsrc%%W=%%O"assets/SPA/fancyMarketingImage.png"%&gt;
 &lt;/%Bbutton%&gt;
       `
     },
