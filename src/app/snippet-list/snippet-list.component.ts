@@ -88,7 +88,7 @@ catch(EvictedError e) {
 %bGeneral%
   %bRequest URL:% https://www.sekas.de/formula/for/success.html
   %bRequest Method:% GET
-  %bSatus Code:% %I% 304 Not Modified
+  %bStatus Code:% %I% 304 Not Modified
       `
     }
   ];
